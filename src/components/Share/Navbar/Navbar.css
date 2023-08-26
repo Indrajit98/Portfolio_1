@@ -1,0 +1,44 @@
+
+.nav ul{
+    display: flex;
+    list-style: none;
+
+}
+.nav ul li{
+    width: 130px;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    height: 120;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav ul li a::after {
+    content: "";
+    position: absolute;
+    background-image: url(../../Asset/Image/menu-hover-shape.webp);
+    width: 40%;
+    height: 40%;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: .3s;
+    width: 120px;
+    height: 50px;
+    top: 5%;
+    left: 5%;
+
+}
+.nav ul li a:hover:after{
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    transform: scale(1.1);    
+    color: white;
+}
+.nav ul li a:hover{
+    color: white;
+
+}

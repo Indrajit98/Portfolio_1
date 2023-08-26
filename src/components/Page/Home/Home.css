@@ -1,0 +1,18 @@
+.shape{
+    position: relative;
+}
+.shape-mark::after{
+    content: "";
+    position: absolute;
+    background-image: url(../../Asset/Image/hero-name-mark-shape.webp);
+    width: 120px;
+    height: 60pxS;
+    background-repeat: no-repeat;
+    opacity: 1;
+    transition: .3s;
+    width: 100%;
+    height: 50px;
+    top: 70%;
+    left: 30%;
+}
+/* style="border: none" width="1080" height="1080" */
