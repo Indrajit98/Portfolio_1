@@ -8,21 +8,21 @@ const Home = () => {
     <div className="hero-section overflow-hidden relative themeColor">
       <span className="hero-shape"></span>
       <div className="container overflow-hidden">
-        <div className="row grid md:grid-cols-2 gap-3">
+        <div className="grid md:grid-cols-2 gap-3 md:px-0 px-3 flex ">
           {/* left div  */}
-          <div className=" relative mt-20 h-96 overflow-hidden">
+          <div className="hero-article">
             <div className="">
               <div>
               <h4>Hello I'm</h4>
-              <h2 className=" hero-title-shape hero-title">Indrajit Chandra Chanda</h2>
+              <h2 className="hero-title-shape">Indrajit Chandra Chanda</h2>
               <p>Web Developer </p>
               <button className="button"><a href="https://drive.google.com/file/d/1w0wst_y8sZ0BAQC6AfVT4pujEun5chak/view?usp=sharing" target="#" >Get Resume</a> <CiImport/></button>
               </div>
             </div>
           </div>
           {/* right div  */}
-          <div className="z-50 ">
-            <img className="h-full object-cover" src={image} alt="" />
+          <div className="md:z-50 ">
+            <img className="md:h-full object-cover" src={image} alt="" />
           </div>
         </div>
       </div>

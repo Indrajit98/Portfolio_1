@@ -42,6 +42,20 @@
     right: 5%;
     bottom: -12%;
 }
+@media only screen and (max-width:640px){
+    .hero-shape::after{
+        display: none;
+    }
+    .hero-shape::before{
+        display: none;
+    }
+    .hero-title-shape::after{
+        width: 50%;
+        display: none;
+    }
+
+    
+}
 
 
 
