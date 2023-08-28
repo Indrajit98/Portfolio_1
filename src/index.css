@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -15,3 +16,30 @@ code {
     monospace;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+.themeColor{
+  background-color: #252734;
+}
+@layer components{
+
+  /* hero start section  */
+  h4{
+    @apply text-white font-normal md:pt-4 md:text-4xl
+  }
+  p{
+    @apply text-2xl text-white
+  }
+  .hero-image{
+    @apply z-50 absolute md:bottom-0 md:right-5 sm:w-1/2
+  }
+  .hero-title{
+    @apply md:text-5xl sm:text-2xl font-semibold text-white py-8
+}
+.button{
+  @apply flex text-2xl text-white items-center mt-8 border md:p-4 md:px-8 p-2  rounded-full animate-bounce border-buttonColor hover:bg-buttonColor z-50 overflow-hidden
+}
+
+}

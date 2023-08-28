@@ -1,4 +1,7 @@
-
+.nav-bg{
+    background-color: #252734;
+    z-index: 0;
+}
 .nav ul{
     display: flex;
     list-style: none;
