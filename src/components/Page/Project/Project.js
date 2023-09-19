@@ -11,13 +11,13 @@ const Project = () => {
   }, []);
 
   return (
-    <div className="container lg:my-20">
+    <div className="container lg:mt-20 ">
       <div>
         <h2 className="text-center">My Complete Projects</h2>
       </div>
       {data?.map((data, i) => (
         <div className="projects">
-          <div className="project-single">
+          <div className="project-single bg-bgProject">
             <div className="project-image">
               <figure>
                 <img

@@ -6,7 +6,7 @@ import Project from "../Project/Project";
 
 const Home = () => {
   return (
-    <div className="bg-themeColor">
+    <div className="">
       <div className="hero-section overflow-hidden relative ">
         <span className="hero-shape"></span>
         <div className="container overflow-hidden">
