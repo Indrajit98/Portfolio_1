@@ -16,9 +16,9 @@ const Project = () => {
         <h2 className="text-center">My Complete Projects</h2>
       </div>
       {data?.map((data, i) => (
-        <div className="lg:pt-16 overflow-hidden last:pb-16  lg:m-0 m-4">
-          <div className=" flex lg:flex-row flex-col bg-base-100 lg:w-3/4 w-full lg:mx-auto rounded border border-spacing-3 overflow-hidden">
-            <div className="lg:w-1/2 lg:m-5 h-80 overflow-hidden align-middle w-full cursor-pointer">
+        <div className="projects">
+          <div className="project-single">
+            <div className="project-image">
               <figure>
                 <img
                   className="w-full h-full object-cover object-top"

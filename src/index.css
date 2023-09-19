@@ -44,8 +44,17 @@ code {
 .hero-article{
   @apply relative md:mt-20 md:h-96 overflow-hidden order-last md:order-first
 }
-/* .card-body :where(p) {
-  @apply flex-grow: 0;
-} */
+/* projct components  */
+.projects{
+  @apply lg:pt-16 overflow-hidden last:pb-16  lg:m-0 m-4
+}
+.project-single{
+  @apply flex lg:flex-row flex-col bg-base-100 lg:w-3/4 w-full lg:mx-auto rounded border border-spacing-3 overflow-hidden
+}
+.project-image{
+  @apply lg:w-1/2 lg:m-5 h-80 overflow-hidden align-middle w-full cursor-pointer
+}
+
+
 
 }
