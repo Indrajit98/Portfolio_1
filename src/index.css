@@ -20,29 +20,32 @@ code {
   margin-left: auto;
   margin-right: auto;
 }
-.themeColor{
+/* .themeColor{
   background-color: #252734;
-}
+} */
 @layer components{
 
   /* hero start section  */
   h4{
-    @apply text-white font-normal md:pt-4 md:text-4xl text-2xl
+    @apply text-white font-normal md:pt-14 md:text-4xl text-2xl
   }
   p{
-    @apply text-2xl text-white
+    @apply md:text-2xl text-white text-xl
   }
   .hero-image{
     @apply absolute md:bottom-0 md:right-5 sm:w-1/2
   }
   h2{
-    @apply md:text-5xl text-2xl font-semibold text-white md:py-8 py-2
+    @apply md:text-5xl text-2xl font-semibold text-white md:pt-5 md:pb-12 pt-3 pb-8
 }
 .button{
-  @apply flex text-2xl text-white items-center mt-8 border md:p-4 md:px-8 p-2  rounded-full animate-bounce border-buttonColor hover:bg-buttonColor z-50 overflow-hidden
+  @apply flex text-2xl text-white items-center md:mt-20 mt-10 border md:p-4 md:px-8 p-2  rounded-full animate-bounce border-buttonColor hover:bg-buttonColor z-50 overflow-hidden
 }
 .hero-article{
   @apply relative md:mt-20 md:h-96 overflow-hidden order-last md:order-first
 }
+/* .card-body :where(p) {
+  @apply flex-grow: 0;
+} */
 
 }
