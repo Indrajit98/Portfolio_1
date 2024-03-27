@@ -35,7 +35,7 @@ const Home = () => {
             </div>
             {/* right div  */}
             <div className="md:z-50 w-full h-full flex item-center">
-              <img className="md:h-full object-cover" src={image} alt="image" />
+              <img className="md:h-full object-cover" src={image} alt="imag" />
             </div>
           </div>
         </div>
