@@ -27,7 +27,7 @@ code {
 
   /* hero start section  */
   h4{
-    @apply text-white font-normal md:pt-14 md:text-4xl text-2xl
+    @apply text-white font-bold md:pt-14 mb-8 md:text-4xl text-2xl 
   }
   p{
     @apply md:text-2xl text-white text-xl
@@ -35,14 +35,14 @@ code {
   .hero-image{
     @apply absolute md:bottom-0 md:right-5 sm:w-1/2
   }
-  h2{
-    @apply md:text-5xl text-2xl font-semibold text-white md:pt-5 md:pb-12 pt-3 pb-8
+  h1{
+    @apply md:text-5xl text-2xl font-semibold text-white md:py-8 pt-3 pb-8
 }
 .button{
-  @apply flex text-2xl text-white items-center md:mt-20 mt-10 border md:p-4 md:px-8 p-2  rounded-full animate-bounce border-buttonColor hover:bg-buttonColor z-50 overflow-hidden
+  @apply flex text-2xl text-white items-center md:mt-16 mt-10 border md:p-4 md:px-8 p-2  rounded-full  border-buttonColor hover:bg-buttonColor z-50 overflow-hidden
 }
 .hero-article{
-  @apply relative md:mt-20 md:h-96 overflow-hidden order-last md:order-first
+  @apply relative md:mt-20 overflow-hidden order-last md:order-first
 }
 /* projct components  */
 .projects{

@@ -13,7 +13,7 @@ const Project = () => {
   return (
     <div className="container lg:mt-20 ">
       <div>
-        <h2 className="text-center">My Complete Projects</h2>
+        <h4 className="text-center">My Complete Projects</h4>
       </div>
       {data?.map((data, i) => (
         <div className="projects">
