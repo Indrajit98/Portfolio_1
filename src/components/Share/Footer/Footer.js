@@ -14,9 +14,9 @@ const Footer = () => {
           <Link href="/" className=" text-3xl font-bold text-white">
             Indrajit
           </Link>
-          <p className="text-base pl-4 ">
-            Copyright © 2023 - All right reserved
-          </p>
+          {/* <p className="text-base pl-4 ">
+            Copyright © {new Date().getFullYear()} - All right reserved
+          </p> */}
         </aside>
         <nav className="flex gap-4 md:place-self-center md:justify-self-end">
           <Link to='https://twitter.com/IndrajitChand16' className="text-3xl">
