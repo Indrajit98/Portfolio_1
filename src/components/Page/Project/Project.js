@@ -13,7 +13,7 @@ const Project = () => {
   return (
     <div className="container lg:mt-20 ">
       <div>
-        <h4 className="text-center">My Complete Projects</h4>
+        <h4 className="text-center mb-8">My Complete Projects</h4>
       </div>
       {data?.map((data, i) => (
         <div className="projects">
@@ -29,13 +29,13 @@ const Project = () => {
             </div>
             <div className="card-body lg:w-1/2">
               <h2 className="card-title pb-5">{data?.name}</h2>
-              <p className="text-xl font-light flex-grow-0 pb-5">
+              <p className=" md:font-light flex-grow-0 pb-5">
                 {data?.description}
               </p>
               <div className="lg:flex items-center">
-                <p className="text-xl">Feature: </p>
+                <p>Feature:</p>
                 {data?.feature?.map((feature) => (
-                  <p className=" text-base">{feature}</p>
+                  <p className=" md:text-base">{feature}</p>
                 ))}
               </div>
 
