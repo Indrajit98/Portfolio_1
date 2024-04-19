@@ -19,10 +19,10 @@ const Home = () => {
                 <React.Fragment>
                   <h4>Hello I'm</h4>
                   <h1 className="hero-title-shape">Indrajit Chandra Chanda</h1>
-                  <p>Font-End Developer </p>
+                  <p>Front-End Developer </p>
                   <button className="button">
                     <a
-                      href="https://drive.google.com/file/d/1w0wst_y8sZ0BAQC6AfVT4pujEun5chak/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1CKrw-AcMQMn91yKkVJwLKKCOPnyu78yA/view?usp=sharing"
                       target="#"
                       className="pr-2"
                     >
